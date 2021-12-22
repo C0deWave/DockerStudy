@@ -1,0 +1,15 @@
+version: '2'
+services:
+  logstash:
+    image: logstash:7.16.2
+    environment:
+      SERVER_NAME: logstash
+    ports:
+      - 7200:7200
+    #데이터를 마운트 합니다.
+    volumes:
+      - ./share/pipelines.yml:/usr/share/logstash/config/pipelines.yml
+      - ./share/pipline_conf:/usr/share/logstash/pipeline
+  
+# volumes: # 볼륨을 따로 생성
+#   Logstash_share: 
