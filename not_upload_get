@@ -1,0 +1,3 @@
+docker run --rm -v es_certs:/certs --network=es_default docker.elastic.co/elasticsearch/elasticsearch:7.16.2 curl --cacert /certs/ca/ca.crt -u elastic:wkdwnaud123! https://es01:9200
+
+암호 wkdwnaud123!
