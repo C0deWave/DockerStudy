@@ -8,15 +8,17 @@
 - [ ] Docs: Elastic 내용 해석하기
 - [ ] Feat: 추후에 직접 이미지 만들어 보기
 
-최근 업데이트
-- [X] Docs: Docker를 사용해야 하는 이유
-- [X] Docs: readme 업데이트
+-----
+
+### 이론
+
+* [서버 가상화의 종류](https://github.com/C0deWave/DockerStudy/blob/e66fab4dcab06607724824f193ea960a3e72fc91/Docs/%EC%84%9C%EB%B2%84%20%EA%B0%80%EC%83%81%ED%99%94%EC%9D%98%20%EC%A2%85%EB%A5%98.md)
 
 ---
 
-[도커란 무엇인가?](https://github.com/C0deWave/DockerStudy/blob/master/Docs/whatIsDocker.md)
+* [도커란 무엇인가?](https://github.com/C0deWave/DockerStudy/blob/master/Docs/whatIsDocker.md)
 
-[도커 명령어 정리](https://github.com/C0deWave/DockerStudy/blob/master/Docs/Docker_commend.md)
+* [도커 명령어 정리](https://github.com/C0deWave/DockerStudy/blob/master/Docs/Docker_commend.md)
 
 ---
 
@@ -35,24 +37,8 @@ ElasticSearch Docker TLS 암호화 하기
 우선은 명령어를 간단히 정리해 보았다.
 
 commit 규칙
-1. Feat : 새로운 기능에 대한 커밋
-2. Fix : 버그 수정에 대한 커밋
-3. Build : 빌드 관련 파일 수정에 대한 커밋
-4. Chore : 그 외 자잘한 수정에 대한 커밋
-5. Ci : CI관련 설정 수정에 대한 커밋
-6. Docs : 문서 수정에 대한 커밋
-7. Style : 코드 스타일 혹은 포맷 등에 관한 커밋
-8. Refactor :  코드 리팩토링에 대한 커밋
-9. Test : 테스트 코드 수정에 대한 커밋
-
----
-
-12월 27일 일기
-
-오늘은 사실 많은 공부를 하지 못했다.
-
-갑작스럽게 저녁 약속이 생겨버렸기 때문이다.
-
-때문에 도커 부분에 대한 정리를 했지만 거의 뻥커밋에 가깝게 느껴진다.
-
-만약에 집에 일찍 간다면 더 업데이트 하겠다.
+1. Feat : 새로운 내용 추가에 관한 커밋
+2. Fix : 내용 오류 수정에 대한 커밋
+3. Docs : Readme 개선
+4. Refactor :  특정 주제해 대해 내용을 추가할 경우
+5. Res: 이미지나 동영상 추가할 경우 사용
