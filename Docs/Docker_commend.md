@@ -1,5 +1,9 @@
 ## 본 페이지에서는 도커 명령어에 대해 정리해 본다.
 
+0. mac에서 도커 실행하는 방법
+
+    open --background -a Docker
+
 1. 도커 이미지 검색
    
    docker search [centos]
@@ -46,7 +50,7 @@
 
     docker stop 'containerID'
 
-9. 컨테이너 삭제하기
+9.  컨테이너 삭제하기
 
     docker rm 'containerID'
 
